@@ -17,3 +17,13 @@ var dipendente1 = new Dipendente()
 };
 
 dipendente1.ShowData();
+
+var animale1 = new Animale()
+{
+    Nome = "Tsuki",
+    Età = 7,
+    Habitat = "Casalingo",
+    Specie = "Europeo tigrato",
+};
+
+animale1.ShowAnimal();
